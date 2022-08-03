@@ -3,10 +3,12 @@ package src;
 public class Main {
     public static void main(String[] args) {
         CircularLinkedList list = new CircularLinkedList();
-        list.insertAtHead(new Item("Mohammad"));
-        list.insertAtHead(new Item("Monjed"));
-        list.insertAtHead(new Item("Ahamad"));
-        list.insertAtHead(new Item("Alii"));
-        list.print();
+        list.insertAtTail(new Item("Mohammad"));
+        list.insertAtTail(new Item("Monjed"));
+        list.insertAtTail(new Item("Ahamad"));
+        list.insertAtTail(new Item("Alii"));
+        list.insertAtTail(new Item("Maswadeh"));
+//        list.delete("Ahamad");
+//        list.print();
     }
 }
